@@ -52,3 +52,15 @@ you're building for both iOS and Android, with both toolchains installed):
 ## Questions/issues
 
 See [add_to_app/README.md](../README.md) for further help.
+
+## Testing
+
+To check android tests:
+- cd to flutter directory: `cd flutter_module`
+- install test dependency: `dart pub add --dev test`
+- cd to android directory (cd android_fullscreen)
+- run command with driver file included: ```./gradlew app:connectedAndroidTest -Ptarget=`pwd`/../flutter_module/test_driver/example.dart```
+
+To check dart tests:
+- cd to flutter directory: `cd flutter_module`
+- run command with test file included: `flutter test test/widget_test.dart` 

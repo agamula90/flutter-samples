@@ -19,6 +19,7 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
   espresso: ">=0.2.0 <0.4.0"
+  test: ^1.24.3
 
 flutter:
   uses-material-design: true
